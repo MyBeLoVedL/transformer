@@ -1,0 +1,9 @@
+[http "https://github.com"]
+	proxy = http://127.0.0.1:12333
+[user]
+	email = 17752254783@163.com
+	name = altair
+  
+
+[pull]
+	ff = only
