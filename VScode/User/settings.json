@@ -1,0 +1,49 @@
+{
+  "window.zoomLevel": 2,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "w",
+        "e"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "w",
+        "q"
+      ],
+      "commands": [
+        "workbench.action.files.save",
+        "workbench.action.closeActiveEditor"
+      ]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-w>": true
+  },
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter-notebook",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "python.insidersChannel": "weekly",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "terminal.integrated.automationShell.linux": "bash",
+  "editor.formatOnSave": true,
+  "clang-format.executable": "/usr/bin/clang-format",
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "workbench.colorTheme": "City Lights",
+  "workbench.iconTheme": "material-icon-theme"
+}
